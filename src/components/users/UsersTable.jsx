@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState,useEffect } from 'react'
-import { getUsers } from '../../services/userServices'
+// import { getUsers } from '../../services/productServices'
 import UserModal from './UserModal'
 
 

@@ -3,7 +3,6 @@ import './App.css'
 import Main from './views/Main'
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
 import Home from './views/Home'
-import Users from './views/Users'
 
 function App() {
 
@@ -13,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} >
             <Route path="" element={<Home/>} />
-            <Route path="/users" element={<Users/>} />
+            {/* <Route path="/users" element={<Users/>} /> */}
           </Route>
           
         </Routes>
